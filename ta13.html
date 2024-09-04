@@ -1,0 +1,17 @@
+<!DOCTYPE html><html>
+    <head>
+    </head>
+    <body>
+        <p id="TextoACambiar">Texto original</p>
+        <button id="botonQueCambiatexto">Cambiar texto</button>
+        <script>
+            const boton = document.getElementById("botonQueCambiatexto");
+
+            const textoACambiar = document.getElementById("TextoACambiar")
+
+            boton.addEventListener("click" , () => {
+                textoACambiar.innerHTML = "Texto cambiado"
+            })
+        </script>
+    </body>
+</html>
